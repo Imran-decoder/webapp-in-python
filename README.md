@@ -80,3 +80,10 @@ Here's the high-level workflow:
 ---
 
 ### 6. Integrated CI/CD
+Implemented GitHub Actions for continuous integration and deployment. Key changes include:
+-
+ Automatic workflow trigger on push to the main branch.
+ Build and test pipeline using python3.12-slim Docker image.
+ Installed project dependencies via requirements.txt.
+ Containerized the application with Docker for consistent deployment.
+ Defined deployment steps in a GitHub Actions YAML workflow.
